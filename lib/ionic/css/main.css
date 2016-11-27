@@ -1,3 +1,107 @@
 .button_width{
     100%;
 }
+#side-menu21 .item-avatar {
+    background-image: url(../../../img/avatar-blur.png);
+    background-size: cover;
+    padding-left: 16px;
+}
+#side-menu21 .item-avatar img {
+    display: inline-block;
+    top: 16px;
+    left: 16px;
+    max-width: 60px;
+    max-height: 60px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+#side-menu21 .item-avatar h2 {
+    margin-top: 100px;
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgba(255, 255, 255, 0.871);
+  line-height: 1.2;
+}
+#menu-list-item-container1{
+    padding: 0px;
+}
+
+#menu-heading2{
+    color:#000000;
+    font-weight:600;
+    margin: 16px ;
+}
+
+#menu-markdown7 {
+    min-height: 65px;
+    padding: 16px;
+    background-color: #c62828;
+}
+#menu-markdown7 p.medium20pt {
+    text-transform: uppercase;
+    margin: 0px;
+      font-size: 20px;
+  font-family: "Roboto";
+  color: rgba(255, 255, 255, 0.871);
+  line-height: 0.778;
+}
+#menu-markdown7 p.little10pt {
+    margin-top: 5px;
+  font-size: 12px;
+  font-family: "Roboto";
+  color: rgba(255, 255, 255, 0.541);
+  line-height: 1.2;
+}
+
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+    text-align: right;
+}
+
+.item-icon-left {
+    border: 0px;
+}
+
+#page4-button5 {
+    margin: 10px;
+    background-color: #f44336;
+}
+
+#page4-list26 {
+    position: absolute;
+    top: 280px;
+}
+
+#page4-list26 .item { 
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+#page4-list26 .item h2 {
+  font-size: 40px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+#page4-list26 .item p {
+  font-size: 20px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+
+#page4 .scroll.padding {
+    padding: 0px;
+}
+
+#ticket-info {
+    padding: 10px 30px;
+}
+
+.spacer { border-bottom: 1px solid #eeeeee;
+    
