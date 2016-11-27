@@ -103,5 +103,50 @@
     padding: 10px 30px;
 }
 
-.spacer { border-bottom: 1px solid #eeeeee;
+.spacer { border-bottom: 1px solid #eeeeee; }
+
+.red-side { background-color: #c62828; text-align: center; padding: 20px 30px;}
+.red-side h1 { color: #FFFFFF; margin: 0px; }
+.red-side h5 { color: #FFFFFF; margin: 0px;}
+
+.ticked-card {    
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.ticket-card .card-content h4 { 
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;    
+}
+
+.ticket-card .card-action b { display: block; float: left; margin-top: 5px;}
+.ticket-card .card-action i { display: block; float: right; }
+
+.patient .item-avatar{
     
+    display: block;
+    width: 100%;
+    
+}
+
+.patient .patient-info {
+    display: block;
+    float: left;
+}
+
+.patient .patient-info h5 {
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+.patient .patient-info p {
+    color: #666;
+    margin-bottom: 0px;
+}
+
+.patient .patient-edit {
+    display: block;
+    float: right;
+    margin: 15px 15px 0px 0px;
+    
+}

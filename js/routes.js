@@ -8,7 +8,15 @@ angular.module('app.routes', [])
   // Each state's controller can be found in controllers.js
   $stateProvider
     
-  
+  .state('menu.page_new', { 
+url: '/page_new', 
+views: { 
+'side-menu21': { 
+templateUrl: 'templates/page_new.html', 
+controller: 'page_newCtrl' 
+} 
+} 
+})
 
       .state('menu.131', {
     url: '/page2',
