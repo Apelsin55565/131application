@@ -3571,7 +3571,7 @@ ion-infinite-scroll {
  * --------------------------------------------------
  */
 p {
-  margin: 170px 0 20px; }
+  margin: 0px 0 20px; }
 
 small {
   font-size: 85%; }
@@ -5696,7 +5696,7 @@ ion-tabs.tabs-striped.tabs-color-active-dark .tab-item.tab-item-active, ion-tabs
 .item {
   border-color: #ddd;
   background-color: #fff;
-  color: #fafafa;
+  color: #212121;
   position: relative;
   z-index: 2;
   display: block;
