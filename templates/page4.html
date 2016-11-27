@@ -1,54 +1,41 @@
 <ion-view title="Талон" id="page4">
-       
-  <ion-nav-buttons side="right" class="has-header">
-    <button class="button button-icon icon ion-android-share-alt"></button>
-  </ion-nav-buttons>
-  <ion-content padding="true" class="has-header">
-
-    <div style="margin-left: -10px; width: calc(100% + 20px);">
-        <ion-list id="page4-list26">
-          <ion-item class="item-icon-left" id="page4-list-item74">
-           <h2>УЗИ</h2>
-            <p>Брюшной полости</p>
-            </ion-item>
-          
-        </ion-list>
-      <img src="img/EKPjrJoaSXq0vfFcaUOg_.PNG" style="display: block; width: 100%; margin-left: auto; margin-right: auto;">
-    </div>
-      <div id="ticket-info">
-            <button ui-sref="menu.page6" id="page4-button5" class="btn waves-effect waves-light">Заказать талон
-               <i class="material-icons right">check</i>
-            </button>
-
-          <div class="spacer" style="width: 300px; height: 14px;"></div>
-        <ion-list id="page4-list29">
-          <ion-item class="item-icon-left" id="page4-list-item76">
-            <i class="icon ion-ios-calendar-outline"></i>10 / 12 / 2016</ion-item>
-          <ion-item class="item-icon-left" id="page4-list-item77">
-            <i class="icon ion-android-alarm-clock"></i>18 : 15</ion-item>
-        </ion-list>
-
+    <ion-nav-bar class="bar-balanced">
+        <ion-nav-back-button></ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-nav-buttons side="right" class="has-header">
+        <button class="button button-icon icon ion-android-share-alt"></button>
+    </ion-nav-buttons>
+    <ion-content padding="true" class="has-header">
+        <div style="margin-left: -10px; width: calc(100% + 20px);">
+            <ion-list id="page4-list26">
+                <ion-item class="item-icon-left" id="page4-list-item74">
+                    <h2>УЗИ</h2>
+                    <p>Брюшной полости</p>
+                </ion-item>
+            </ion-list> <img src="img/EKPjrJoaSXq0vfFcaUOg_.PNG" style="display: block; width: 100%; margin-left: auto; margin-right: auto;"> </div>
+        <div id="ticket-info">
+            <button ui-sref="menu.page6" id="page4-button5" class="btn waves-effect waves-light">Заказать талон <i class="material-icons right">check</i> </button>
+            <div class="spacer" style="width: 300px; height: 14px;"></div>
+            <ion-list id="page4-list29">
+                <ion-item class="item-icon-left" id="page4-list-item76"> <i class="icon ion-ios-calendar-outline"></i>10 / 12 / 2016</ion-item>
+                <ion-item class="item-icon-left" id="page4-list-item77"> <i class="icon ion-android-alarm-clock"></i>18 : 15</ion-item>
+            </ion-list>
+            <div class="spacer" style="width: 300px; height: 14px;"></div>
+            <ion-list id="page4-list25">
+                <ion-item class="item-icon-left" id="page4-list-item69"> <i class="icon ion-android-person"></i> Врач (ФИО)</ion-item>
+                <ion-item class="item-icon-left" id="page4-list-item71"> <i class="icon ion-android-home"></i>УЗ (адрес)</ion-item>
+                <ion-item class="item-icon-left" id="page4-list-item75"> <i class="icon ion-cash"></i>18.54 BYN</ion-item>
+            </ion-list>
+        </div>
         <div class="spacer" style="width: 300px; height: 14px;"></div>
-        <ion-list id="page4-list25">
-            <ion-item class="item-icon-left" id="page4-list-item69">
-                <i class="icon ion-android-person"></i> Врач (ФИО)</ion-item>
-          <ion-item class="item-icon-left" id="page4-list-item71">
-            <i class="icon ion-android-home"></i>УЗ (адрес)</ion-item>
-          <ion-item class="item-icon-left" id="page4-list-item75">
-            <i class="icon ion-cash"></i>18.54 BYN</ion-item>
-        </ion-list>
+    </ion-content>
+    <div class="fixed-action-btn horizontal click-to-toggle">
+        <a class="btn-floating btn-large red"> <i class="material-icons">phone</i> </a>
+        <ul>
+            <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+            <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+            <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+            <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        </ul>
     </div>
-    <div class="spacer" style="width: 300px; height: 14px;"></div>
-  </ion-content>
-     <div class="fixed-action-btn horizontal click-to-toggle">
-    <a class="btn-floating btn-large red">
-      <i class="material-icons">phone</i>
-    </a>
-    <ul>
-      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-    </ul>
-  </div>
 </ion-view>

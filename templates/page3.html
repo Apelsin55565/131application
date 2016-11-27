@@ -1,25 +1,28 @@
-<ion-view title="Выбор Услуги" id="page3">
-  <ion-content padding="true" class="has-header">
-    <form id="page3-form1" class="list">
-      <label class="item item-input" id="page3-search1">
-        <i class="icon ion-search placeholder-icon"></i>
-        <input type="search" placeholder="Найти">
-      </label>
-      <div class="spacer" style="width: 300px; height: 11px;"></div>
-      <ion-item id="page3-list-item18" ui-sref="menu.page12">Услуга 1</ion-item>
-      <ion-item id="page3-list-item19" ui-sref="menu.page12">Услуга 2</ion-item>
-      <ion-item id="page3-list-item20" ui-sref="menu.page12">Услуга 3</ion-item>
-    </form>
-  </ion-content>
-     <div class="fixed-action-btn horizontal click-to-toggle">
-    <a class="btn-floating btn-large red">
-      <i class="material-icons">phone</i>
-    </a>
-    <ul>
-      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-    </ul>
-  </div>
+<ion-view title="Выбор услуги" id="page3">
+    <ion-nav-bar class="bar-balanced">
+        <ion-nav-back-button></ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-content padding="true" class="has-header">
+        <nav>
+            <div class="nav-wrapper">
+                <form>
+                    <div class="input-field">
+                        <input id="search" type="search" required>
+                        <label for="search"><i style="color: #444;" class="material-icons">search</i></label> <i class="material-icons" style="margin-right:35px">mic</i> <i class="material-icons">close</i> </div>
+                </form>
+            </div>
+        </nav>
+        <form id="page3-form1" class="list">
+            <ion-item id="page3-list-item18" ui-sref="menu.page12">Инструментальные исследования</ion-item>
+            <ion-item id="page3-list-item19" ui-sref="menu.page12">Консультации врачей-специалистов</ion-item>
+            <ion-item id="page3-list-item20" ui-sref="menu.page12">Лабораторные исследования</ion-item>
+            <ion-item id="page3-list-item20" ui-sref="menu.page12">Лучевые исследования</ion-item>
+            <ion-item id="page3-list-item20" ui-sref="menu.page12">УЗИ брюшной полости</ion-item>
+            <ion-item id="page3-list-item20" ui-sref="menu.page12">Физиотерапия исследования</ion-item>
+            <ion-item id="page3-list-item20" ui-sref="menu.page12">Функциональные исследования</ion-item>
+            <ion-item id="page3-list-item20" ui-sref="menu.page12">Инструментальные исследования</ion-item>
+            <ion-item id="page3-list-item20" ui-sref="menu.page12">Консультации врачей-специалистов</ion-item>
+            <ion-item id="page3-list-item20" ui-sref="menu.page12">МРТ</ion-item>
+        </form>
+    </ion-content>
 </ion-view>
